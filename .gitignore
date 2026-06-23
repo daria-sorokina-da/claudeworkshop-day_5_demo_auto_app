@@ -1,0 +1,76 @@
+############################
+# .NET / ASP.NET Core
+############################
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.dbmdl
+project.lock.json
+
+# Build & publish output
+publish/
+*.binlog
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# Local config that may hold secrets / connection strings
+appsettings.Development.json
+appsettings.*.Local.json
+secrets.json
+
+############################
+# Node / Vite (frontend)
+############################
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Environment files
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Editors / IDEs
+############################
+.vs/
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# Local scratch / working dir
+############################
+.temp/
