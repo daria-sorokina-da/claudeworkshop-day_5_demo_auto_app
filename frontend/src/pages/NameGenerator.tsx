@@ -50,6 +50,8 @@ export default function NameGenerator() {
                 className={`pill${style === s ? ' selected' : ''}`}
                 onClick={() => setStyle(s)}
                 title={STYLE_DESCRIPTIONS[s]}
+                data-testid={`style-${s}`}
+                aria-pressed={style === s}
               >
                 {s}
               </button>
@@ -68,6 +70,8 @@ export default function NameGenerator() {
                 key={g}
                 className={`pill${gender === g ? ' selected' : ''}`}
                 onClick={() => setGender(g)}
+                data-testid={`gender-${g}`}
+                aria-pressed={gender === g}
               >
                 {g}
               </button>
